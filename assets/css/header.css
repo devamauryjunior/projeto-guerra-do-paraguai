@@ -1,11 +1,8 @@
 #header {
     width: 100vw;
-    height: 100vh;
-    /* padding: .5rem; */
     max-width: 1440px;
     min-width: 375px;
     margin: 0 auto;
-    /* border: 1px solid red; */
 }
 
 .container-1{
@@ -53,6 +50,7 @@
 }
 
 
+
 .box-mobile {
     display: flex;
     align-items: center;
@@ -60,12 +58,17 @@
     text-align: left;
     gap: 2rem;
     padding: 2rem 1.2rem 2rem 1.2rem;
+    /* border: 1px solid red; */
 }
 
 .box-mobile img {
     border: 1px solid black;
     border-radius: 1.2rem;
 }
+
+/* .text {
+    border: 1px solid red;
+} */
 
 .text h2 {
     font-size: 3rem;

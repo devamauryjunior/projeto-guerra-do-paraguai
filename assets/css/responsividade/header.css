@@ -1,0 +1,50 @@
+@media screen and (max-width: 1074px) {
+    #menu {
+        gap: 2rem;
+    }
+    .box-mobile {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .box-mobile img {
+        width: 100%;
+    }
+    
+    .navigation button {
+        display: block;
+        background-color: var(--color-black);
+        border: none;
+    }
+   
+    #menu {
+        text-align: left;
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        z-index: 1000;
+        background-color: var(--color-black);
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    #menu li {
+        display: flex;
+        justify-content: center;
+        margin: 3rem 1rem 0 0;
+    }
+
+    .navigation.active #menu {
+        max-height: calc(100vh - 70px);
+        visibility: visible;
+        
+    } 
+
+
+}
