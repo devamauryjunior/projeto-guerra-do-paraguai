@@ -29,6 +29,7 @@
 
 .navigation button {
     display: none;
+    visibility: hidden;
 }
 
 #menu {
@@ -49,7 +50,9 @@
     border-bottom: 1px solid var(--color-yellow);
 }
 
-
+/* .container-2 {
+    border: 1px solid red;
+} */
 
 .box-mobile {
     display: flex;
