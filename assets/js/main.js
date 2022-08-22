@@ -11,6 +11,7 @@ getCloseButtonMenu.style.display = "none";
 getOpenButtonMenu.addEventListener('click', ()=>{
     nav.classList.toggle('active');
     // definindo o sroll do budy como "desativo"
+    // 1 das maneiras para tirar o scroll da página
     document.body.style.overflow = "hidden";
     // definindo botão de abrir o menu como display none
     getOpenButtonMenu.style.display = "none";

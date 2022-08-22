@@ -1,5 +1,22 @@
-/* #main {
+#main {
     border: 1px solid red;
-    width: 100vw;
-    height: 100vh;
-} */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-inline: 1.2rem;
+}
+
+
+
+#main h2 {
+    border: 1px solid pink;
+}
+
+.country {
+    border: 2px solid blue;
+    width: 800px;
+}
+.country img {
+    width: 600px;
+}
