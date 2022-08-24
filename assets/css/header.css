@@ -1,9 +1,9 @@
-#header {
+/* #header {
     width: 100vw;
     max-width: 1440px;
     min-width: 375px;
     margin: 0 auto;
-}
+} */
 
 .container-1{
     display: flex;
@@ -78,7 +78,7 @@
     font-style: oblique;
     font-weight: 500;
     margin-bottom: .8rem;
-    color: rgb(105, 105, 105);
+    color: #696969;
 }
 
 .text p {

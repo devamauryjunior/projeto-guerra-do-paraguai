@@ -10,6 +10,8 @@
     --color-yellow: #F2CE1B;
     --color-black: #2d3540;
     --color-bege: #F2DBAE;
+    --clip-path-right: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    --clip-path-left: polygon(0 0, 100% 0, 68% 100%, 0 100%);;
 }
 
 body {
@@ -34,4 +36,14 @@ button {
 /* COLOCANDO VIDEO EM DISPLAY NONE */
 video {
     display: none;
+}
+
+#header,
+#main,
+#footer {
+    width: 100vw;
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0 auto;
+    
 }
