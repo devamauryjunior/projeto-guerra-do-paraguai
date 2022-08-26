@@ -2,6 +2,8 @@
 const getOpenButtonMenu = document.querySelector('#openMenu');
 const getCloseButtonMenu = document.querySelector('#closeMenu');
 const nav = document.querySelector('.navigation');
+// const brasilLink = document.querySelector('#brasilLink');
+const countryLinks = document.querySelectorAll('.ctr-links');
 // -------------------------------------------------------------
 
 // definindo botão de fechar o menu como display none
@@ -31,3 +33,19 @@ getCloseButtonMenu.onclick = function() {
     getOpenButtonMenu.style.display = "block";
 }
 // -------------------------------------------------------------
+
+countryLinks.forEach(element => {
+    element.onclick = ()=>{
+        document.body.style.overflow = "scroll";
+        getCloseButtonMenu.style.display = "none";
+        getOpenButtonMenu.style.display = "block";
+        nav.classList.toggle('active');
+    }
+})
+
+// brasilLink.onclick = ()=>{
+//     document.body.style.overflow = "scroll";
+//     array.forEach(element => {
+//         element.onclick = 
+//     });
+// }

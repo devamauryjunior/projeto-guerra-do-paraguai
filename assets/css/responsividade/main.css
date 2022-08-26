@@ -1,0 +1,32 @@
+@media screen and (max-width: 1074px) {
+    #main > h2 {
+        font-size: 3.5rem;
+    }
+
+    .brasil,
+    .uruguai,
+    .paraguai,
+    .argentina {
+        /* border: 1px solid red; */
+        flex-direction: column;
+    }
+
+    .brasil,
+    .uruguai,
+    .paraguai {
+        margin-bottom: 2rem;
+    }
+
+    .brasil img,
+    .paraguai img,
+    .uruguai img,
+    .argentina img {
+        clip-path: none;
+    }
+
+    .country-text h2 {
+        font-size: 4.5rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}

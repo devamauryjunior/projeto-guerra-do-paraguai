@@ -44,6 +44,9 @@ video {
     width: 100vw;
     max-width: 1440px;
     min-width: 375px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
+}
+
+.material-symbols-outlined {
+    color: white;
 }

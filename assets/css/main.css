@@ -16,31 +16,44 @@
 }
 
 .brasil,
-.uruguai {
+.uruguai,
+.paraguai,
+.argentina {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.brasil {
+.brasil,
+.uruguai,
+.paraguai {
+    margin-bottom: 9rem;
+}
+
+.brasil,
+.paraguai {
     flex-direction: row-reverse;
 }
 
-.uruguai {
+.uruguai,
+.argentina {
     flex-direction: row;
 }
 
+
 .brasil img,
 .paraguai img {
-    width: 600px;
+    width: 450px;
     clip-path: var(--clip-path-right);
+    margin-left: 1.6rem;
 }
 
 .uruguai img,
 .argentina img {
-    width: 600px;
+    width: 450px;
     clip-path: var(--clip-path-left);
+    margin-right: 1.6rem;
 }
 
 
