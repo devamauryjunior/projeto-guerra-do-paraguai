@@ -36,10 +36,10 @@ getCloseButtonMenu.onclick = function() {
 
 countryLinks.forEach(element => {
     element.onclick = ()=>{
+        nav.classList.toggle('active');
         document.body.style.overflow = "scroll";
         getCloseButtonMenu.style.display = "none";
         getOpenButtonMenu.style.display = "block";
-        nav.classList.toggle('active');
     }
 })
 
