@@ -42,7 +42,7 @@ countryLinks.forEach(element => {
 buttonUpPage.onclick = ()=>{
     let headerTop = headerUp.offsetTop;
     let headerHeight = headerUp.offsetHeight;
-    console.log(headerTop, headerHeight);
+    // console.log(headerTop, headerHeight);
     // window.scrollTo(headerHeight, headerTop); 
     // scrollTo() EFETIVAMENTE IGUAL a scroll()
     // As duas servem para levar em determinado local do documento, passando valores (x,y)

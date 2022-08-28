@@ -1,0 +1,46 @@
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    background-color: #222831;
+    padding: 10rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.about-history h2 {
+    margin-top: .2rem;
+}
+
+.history-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.history-links a {
+    color: #F2DBAE;
+}
+
+#upPage {
+    border: none;
+    border-radius: 1rem;
+    background-color: #222831;
+}
+
+#upPage img {
+    width: 40px;
+}

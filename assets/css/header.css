@@ -1,15 +1,7 @@
-/* #header {
-    width: 100vw;
-    max-width: 1440px;
-    min-width: 375px;
-    margin: 0 auto;
-} */
-
 .container-1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border: 1px solid red; */
     padding: 1.2rem;
     color: var(--color-yellow);
 }
@@ -50,10 +42,6 @@
     border-bottom: 1px solid var(--color-yellow);
 }
 
-/* .container-2 {
-    border: 1px solid red;
-} */
-
 .box-mobile {
     display: flex;
     align-items: center;
@@ -68,10 +56,6 @@
     border: 1px solid black;
     border-radius: 1.2rem;
 }
-
-/* .text {
-    border: 1px solid red;
-} */
 
 .text h2 {
     font-size: 3rem;

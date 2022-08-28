@@ -22,7 +22,6 @@ body {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    /* background-color: var(--color-black); */
     background-color: black;
 }
 
@@ -37,9 +36,6 @@ ul {
 button {
     cursor: pointer;
 }
-
-/* COLOCANDO VIDEO EM DISPLAY NONE */
-
 
 #header,
 #main {
