@@ -93,3 +93,18 @@
         clip-path: none;
     }
 }
+
+@media screen and (max-width: 425px) {
+    #main {
+        margin: 0 0 0 0;
+    }
+    #main > h2 {
+        font-size: 2.5rem;
+    }
+    .brasil img,
+    .uruguai img,
+    .paraguai img,
+    .argentina img {
+        width: 300px;
+    }
+}

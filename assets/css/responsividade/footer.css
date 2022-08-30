@@ -3,3 +3,26 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #footer {
+        justify-content: space-between;
+        margin-top: 6rem;
+    }
+
+    .social-links {
+        gap: 1rem;
+    }
+
+    .about-creator h2 {
+        display: none;
+    }
+
+    .about-history {
+        display: none;
+    }
+
+    #upPage img {
+        width: 35px;
+    }
+}

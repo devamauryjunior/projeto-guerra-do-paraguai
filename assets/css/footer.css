@@ -23,6 +23,10 @@
     margin-top: .2rem;
 }
 
+.about-creator h2 {
+    font-size: 2.2rem;
+}
+
 .history-links {
     display: flex;
     flex-direction: column;
