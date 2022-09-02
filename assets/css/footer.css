@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 10rem;
-    background-color: #222831;
+    background-color: #494d55;
     padding: 10rem;
 }
 
@@ -47,4 +47,5 @@
 
 #upPage img {
     width: 40px;
+    background-color: #494d55;
 }
