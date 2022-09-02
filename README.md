@@ -19,7 +19,7 @@ A guerra do Paraguai foi um conflito no continente latino americo que teve parti
 ## Referência
 
 - [TodaMateria](https://www.todamateria.com.br/guerra-do-paraguai/#:~:text=Consequ%C3%AAncias%20da%20Guerra%20do%20Paraguai&text=Al%C3%A9m%20disso%2C%20perdeu%20parte%20do,e%20o%20Brasil%2C%20em%201943.)
-- [MundoEducacao](https://mundoeducacao.uol.com.br/historiadobrasil/guerra-paraguai.htm#:~:text=A%20guerra%20oficialmente%20encerrou%2Dse,mil%20e%20150%20mil%20mortos).)
+- [MundoEducacao](https://mundoeducacao.uol.com.br/historiadobrasil/guerra-paraguai.htm#:~:text=A%20guerra%20oficialmente%20encerrou%2Dse,mil%20e%20150%20mil%20mortos)
 
 ## 🔗 Links
 <div align="center">
